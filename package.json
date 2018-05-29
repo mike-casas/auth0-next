@@ -1,0 +1,23 @@
+{
+  "name": "auth0-next",
+  "version": "1.0.0",
+  "description": "Auth0 Website with Next",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@auth0/cosmos": "^0.2.2",
+    "babel-plugin-inline-react-svg": "^0.5.2",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-styled-components": "^1.1.5",
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "styled-components": "^2.1.0"
+  }
+}
