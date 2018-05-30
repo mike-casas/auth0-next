@@ -9,6 +9,11 @@ import { colors } from '@auth0/cosmos';
 const Index = () => (
   <Layout>
     <Hero />
+    <ul>
+      <li>
+
+      </li>
+    </ul>
   </Layout>
 )
 

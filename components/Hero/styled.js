@@ -15,7 +15,7 @@ export const Title = styled.h1`
   text-align: center;
 `;
 
-export const Subtitle = styled.h1`
+export const Subtitle = styled.p`
   max-width: 580px;
   font-size: 14px;
   margin: auto;
