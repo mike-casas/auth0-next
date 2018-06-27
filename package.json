@@ -4,9 +4,7 @@
   "description": "Auth0 Website with Next",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,9 +13,17 @@
     "babel-plugin-inline-react-svg": "^0.5.2",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-styled-components": "^1.1.5",
+    "cache-invalidator": "github:auth0/pgr#cache-invalidator-v1.8.3-gitpkg",
+    "contentful": "^5.0.5",
+    "contentful-wrapper": "github:auth0/pgr#contentful-wrapper-v2.0.5-gitpkg",
+    "dotenv": "^6.0.0",
+    "express": "^4.15.2",
+    "express-locale": "^1.0.5",
+    "i18n-translations": "1.0.1",
     "next": "^6.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "styled-components": "^2.1.0"
+    "styled-components": "^2.1.0",
+    "translations": "github:auth0/i18n-translations"
   }
 }

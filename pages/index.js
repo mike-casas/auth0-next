@@ -12,4 +12,18 @@ const Index = () => (
   </Layout>
 )
 
-export default Index
+export default class extends React.Component {
+  
+  static getInitialProps({ req }) {
+    const translations = req ? req.translations : [];
+    return { translations };
+  }
+
+  render() {
+    console.log(this.props);
+    return ( 
+    <Layout>
+      <Hero />
+    </Layout>);
+  }
+}
