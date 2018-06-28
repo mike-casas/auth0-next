@@ -16,6 +16,7 @@
     "cache-invalidator": "github:auth0/pgr#cache-invalidator-v1.8.3-gitpkg",
     "contentful": "^5.0.5",
     "contentful-wrapper": "github:auth0/pgr#contentful-wrapper-v2.0.5-gitpkg",
+    "create-react-context": "^0.2.2",
     "dotenv": "^6.0.0",
     "express": "^4.15.2",
     "express-locale": "^1.0.5",

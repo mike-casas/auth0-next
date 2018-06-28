@@ -2,16 +2,7 @@
 import React from 'react';
 import Layout from '/components/Layout';
 import Hero from '/components/Hero';
-import { Heading, Button } from '@auth0/cosmos';
-import { colors } from '@auth0/cosmos';
-
-
-const Index = () => (
-  <Layout>
-    <Hero />
-  </Layout>
-)
-
+import { AppContext } from '/modules/state';
 export default class extends React.Component {
   
   static getInitialProps({ req }) {
@@ -20,10 +11,16 @@ export default class extends React.Component {
   }
 
   render() {
-    console.log(this.props);
+    const state = {
+      translations: this.props.translations
+    };
+    
     return ( 
-    <Layout>
-      <Hero />
-    </Layout>);
+    <AppContext.Provider value={state}>  
+      <Layout>
+        <Hero />
+      </Layout>
+    </AppContext.Provider>
+    );
   }
 }

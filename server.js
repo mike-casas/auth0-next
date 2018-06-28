@@ -19,7 +19,9 @@ const languages = ["es", "en-US"];
 
 const langMiddleware = async (req, res, next) => {
   const currentLanguage = req.locale.language ? req.locale.language : 'en';
-  req.translations = await getLanguageTranslations(currentLanguage);
+  const currentTranslations = await getLanguageTranslations(currentLanguage);
+  const fallbackTranslations = await getLanguageTranslations('en-US');
+  req.translations = { currentTranslations, fallbackTranslations };
   next();
 };
 
