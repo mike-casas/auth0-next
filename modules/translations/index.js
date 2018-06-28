@@ -1,5 +1,4 @@
 export default function getTranslation({currentTranslations, defaultTranslations}, key) {
-  console.log(currentTranslations);
   const findTranslation = (dictionary, key) => {
     if (dictionary.length > 0) {
       const currentText = dictionary.find(

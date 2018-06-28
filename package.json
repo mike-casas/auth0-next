@@ -12,7 +12,6 @@
     "@auth0/cosmos": "^0.2.2",
     "babel-plugin-inline-react-svg": "^0.5.2",
     "babel-plugin-module-resolver": "^3.1.1",
-    "babel-plugin-styled-components": "^1.1.5",
     "cache-invalidator": "github:auth0/pgr#cache-invalidator-v1.8.3-gitpkg",
     "contentful": "^5.0.5",
     "contentful-wrapper": "github:auth0/pgr#contentful-wrapper-v2.0.5-gitpkg",
@@ -26,5 +25,8 @@
     "react-dom": "^16.4.0",
     "styled-components": "^2.1.0",
     "translations": "github:auth0/i18n-translations"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.5.1"
   }
 }

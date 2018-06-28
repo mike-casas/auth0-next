@@ -1,5 +1,4 @@
 import NextHead from 'next/head';
-import Link from 'next/link';
 import { AppContext } from '/modules/state';
 import getTranslation from '/modules/translations';
 

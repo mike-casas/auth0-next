@@ -4,6 +4,7 @@
   ],
   "plugins": [
     "inline-react-svg",
+    "babel-plugin-styled-components",
     [
       "module-resolver",
       {
